@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  background-color: #d0d316;
+  
+}
+
+.navbar {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+  justify-content: space-between;
+  align-self: flex-end;
+
+}
+.UL{
+  display: flex;
+  position: relative;
+  left: 50px;
+  color: rgba(223, 4, 4, 0.678);
+  list-style-type: none;
+  margin-top: 1rem;
+
+}
+
+.collapse{
+  align-items: left;
+  justify-content: 5rem;
+
+}
+.Header{
+  display: grid;
+  grid-template-areas: calc(5rem);
+  flex-direction: row;
+  
+}
+.searchInput{
+  display: inline-flexbox;
+  width: 600px;
+}
+
+.H1{
+  margin: 29px;
+  font-weight: bold;
+  ;
+}
+.H2{
+  margin: 30px;
+  font-weight: bold;
+}
+.H3{
+  margin: 30px;
+  font-weight: bold;
+}
+.H4{
+  margin: 30px;
+  font-weight: bold;
+}
+.H5{
+  margin: 30px;
+  font-weight: bold;
+}
+.nav-link:hover {
+    background-color: rgb(57, 101, 158);
+}
